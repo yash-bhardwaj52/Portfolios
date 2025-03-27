@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav id="home">
         <div class="left">Portfolio</div>
         <div class="right">
           <img
@@ -23,10 +23,11 @@
             alt=""
           />
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">About Us</a></li>
-            <li><a href="/">Projects</a></li>
-            <li><a href="/">Contact Me</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li> 
+            <li><a href="#contact">Contact Me</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
           </ul>
         </div>
@@ -48,7 +49,7 @@
 
       <!-- <hr /> -->
       <section class="second-section">
-        <h1>About Me</h1>
+        <h1 id="about">About Me</h1>
         <div class="about">
           <div class="secondleft">
             <!-- <marquee direction="left" loop="1" scrollamount="30"> </marquee>not working-->
@@ -121,7 +122,7 @@
         </div>
       </section>
       <!-- <hr /> -->
-      <section class="skills-section">
+      <section id="skills" class="skills-section">
         <h1>Technicals Skills</h1>
         <p>
           "I have experience working on various web development projects
@@ -178,7 +179,7 @@
         </div>
       </section>
       <hr />
-      <section class="projects">
+      <section id="projects" class="projects">
         <h1>My Projects</h1>
         <div class="project-container">
           <div class="project">
