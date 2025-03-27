@@ -89,6 +89,7 @@
 }
 
 .purple {
+  font-size: 4rem;
     color: rgb(103, 29, 240);
 }
 
@@ -105,7 +106,7 @@
   
   /* About me section */
   .second-section h1 {
-    font-size: 2.8rem;
+    font-size: 3rem;
   }
   .about {
     display: flex;
@@ -180,33 +181,39 @@
   /* skills section */
 
   .skills-section {
-    max-width: 900px;
+    max-height: 80vh;
+    max-width: 85vw;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12%;
   }
 
   .skills-section h1 {
     /* text-align: center; */
-    font-size: 2.8rem;
-    margin-bottom: 15px;
+    font-size: 3rem;
+    /* margin: auto; */
+    margin-bottom: 25px;
   }
 
   .skills-section p {
     font-size: 16px;
     line-height: 1.6;
-    color: #c7baba;
+    color: #f9f9f9;
     text-align: center;
     margin-bottom: 20px;
   }
 
+
   .skills {
+    margin: auto;
+    max-width: 50vw;
     padding: 0 20px;
   }
 
   .skill {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 
   .skill span {
@@ -247,7 +254,7 @@
     padding: 40px 0;
   }
   .projects h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .project-container {
     display: flex;
@@ -282,27 +289,6 @@
   }
 
   /* footer */
-  footer {
-    background: #0a0a23;
-    /* text-align: center; */
-    padding: 20px 0;
-    margin-top: 50px;
-  }
-  .footer-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    align-items: center;
-  }
-  .footer-container a {
-    color: white;
-    text-decoration: none;
-  }
-  .footer-container img {
-    width: 30px;
-    height: 30px;
-  }
-
   /*---------------------- contact ------------------ */
 
 
@@ -311,6 +297,9 @@
   }
   .contact-left {
     flex-basis: 35%;
+  }
+  .contact-left h1{
+font-size: 3rem;
   }
   
   .contact-right {
