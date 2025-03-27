@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfolio</div>
+        <div class="right">
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAExJREFUSEtjZKAxYKSx+QyjFhAM4QEJov8EnYVfAYqjsfmA5hZQ6AFU7QMSBzT3Ac3jgOYW0DyIhr4FNI8Dmlsw9ONg1AcoIUDz0hQAbegGGXzv/l0AAAAASUVORK5CYII="
+            alt=""
+          />
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About Us</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </header>
+
+      <main>
+      <section class="mainSection">
+        <div class="left-section">
+          Hello, My Name is <span class="purple">Yash</span>
+          And I am a passionate
+          <span id="element"></span>
+        </div>
+        <div class="right-section">
+          <img src="Photo.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- <hr /> -->
+      <section class="second-section">
+        <h1>About Me</h1>
+        <div class="about">
+          <div class="secondleft">
+            <!-- <marquee direction="left" loop="1" scrollamount="30"> </marquee>not working-->
+            <img src="me.jpg" />
+          </div>
+          <div class="secondright">
+            <p>My Name is</p>
+            <div class="name">
+            <h2>Yash Bhardwaj
+              <!-- <marquee
+                scrollamount="10"
+                loop="1"
+                behavior="alternate"
+                direction="left"
+                >Yash Bhardwaj</marquee
+              > -->
+            </h2>
+          </div>
+
+            <h4>Basically, I am a Software Developer.</h4>
+            <p>My Expertise is in Frontend and UI & UX designing.</p>
+            <p>
+              I am a passionate coder with a strong foundation in HTML, CSS, and
+              JavaScript, dedicated to crafting visually appealing and
+              user-friendly web experiences A Front-End Developer is responsible
+              for designing and implementing the visual and interactive aspects
+              of a website or web application. They use technologies like HTML,
+              ....
+            </p>
+            <div class="tab-titls">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contants tab-active" id="skills">
+              <ul>
+                <li>
+                  <span>Web Devlopment</span> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </li>
+                <li><span>ui ux</span> <br />Lorem ipsum dolor sit amet.</li>
+                <li>
+                  <span>app Devlopment</span> <br />Lorem ipsum dolor sit amet.
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contants" id="education">
+              <ul>
+                <li><span>2020</span> <br />Lorem ipsum dolor sit amet.</li>
+                <li><span>2022</span> <br />Lorem ipsum dolor sit amet.</li>
+                <li><span>2023-26</span> <br />Lorem ipsum dolor sit amet.</li>
+                <li><span>2023-26</span> <br />Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <div class="tab-contants" id="experience">
+              <ul>
+                <li>
+                  <span>2023- Present</span> <br />Lorem ipsum dolor sit amet.
+                </li>
+                <li><span>Ffresh</span> <br />Lorem ipsum dolor sit amet.</li>
+                <li><span>Freshers</span> <br />Lorem ipsum dolor sit amet.</li>
+              </ul>
+            </div>
+            <!-- <a href="#" class="read-more">Read More →</a> -->
+          </div>
+        </div>
+      </section>
+      <!-- <hr /> -->
+      <section class="skills-section">
+        <h1>Technicals Skills</h1>
+        <p>
+          "I have experience working on various web development projects
+          involving a wide range of skill sets. Primarily working with Python,
+          CSS, C, and HTML helped me understand the basics of web development. I
+          also gained expertise in using Git and GitHub for version control. My
+          projects include 'Edith,' my personal virtual assistant; 'Bidyut,' a
+          screen cast and control software; 'Adwit,' an online code editor; and
+          'nEmi Notes,' a webpage used for providing notes to college juniors.
+          Additionally, I have skills in Google Script, which has enhanced my
+          ability to create and manage web applications efficiently. These
+          experiences have given me a comprehensive understanding of web
+          development and cloud deployment, working with continuous integration
+          frameworks, automation software, and Cloud DevOps."
+        </p>
+
+        <div class="skills">
+          <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="100%">100%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="80%">80%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>JAVASCRIPT</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="65%">75%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>REACT</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="50%">50%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>C++</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="80%">80%</div>
+            </div>
+          </div>
+          <div class="skill">
+            <span>C LANGUAGE</span>
+            <div class="progress-bar">
+              <div class="progress" data-width="90%">90%</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="projects">
+        <h1>My Projects</h1>
+        <div class="project-container">
+          <div class="project">
+            <h3>To-Do List</h3>
+            <p>
+              A simple and efficient task management application using
+              JavaScript.
+            </p>
+            <a href="/" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <h3>E-commerce Website</h3>
+            <p>
+              A fully functional e-commerce site with product listings, cart,
+              and checkout.
+            </p>
+            <a href="/" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <h3>Website Clones</h3>
+            <p>
+              Recreated popular website layouts with modern front-end
+              technologies.
+            </p>
+            <a href="/" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <h3>Database Management</h3>
+            <p>
+              Created a robust database structure using MongoDB and PostgreSQL.
+            </p>
+            <a href="/" target="_blank">View Project</a>
+          </div>
+        </div>
+      </section>
+      <hr />
+    </main>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contect me</h1>
+            <p><i class="fas fa-paper-plane"></i> sharmayash7055@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> 9258461044</p>
+            <div class="social-icons">
+              <a href=""><i class="fab fa-facebook"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter-square"></i></a>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer>
+      <h1>Contact Me</h1>
+      <p>Email: yashb4846@gmail.com</p>
+      <div class="footer-container">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+    </footer> -->
+
+    <!-- Setup and start animation! -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontants = document.getElementsByClassName("tab-contants");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontants) {
+          tabcontent.classList.remove("tab-active");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("tab-active");
+      }
+
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer .",
+          "Frontend Developer .",
+          "UI UX Designer.",
+          "Web Designer.",
+        ],
+        typeSpeed: 50,
+        backSpeed: 50,
+        loop: true,
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const progressBars = document.querySelectorAll(".progress");
+
+        progressBars.forEach((bar) => {
+          const width = bar.getAttribute("data-width");
+          setTimeout(() => {
+            bar.style.width = width;
+          }, 500);
+        });
+      });
+
+      var sidemeu = document.getElementById("sidemenu")
+
+        function openmenu(){
+          sidemeu.style.right="0"
+        }
+        function closemenu(){
+          sidemeu.style.right="-200px"
+        }
+    </script>
+  </body>
+</html>
